@@ -11,10 +11,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DwyerDing/aiwen-devtool.git"
+    "url": "https://github.com/DwyerDing/npmDev"
   },
   "keywords": [
-    "scaffolding"
+    "aiwen-cli-test"
   ],
   "author": "Dwyer",
   "license": "ISC",
