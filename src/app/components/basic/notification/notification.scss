@@ -1,0 +1,28 @@
+@import "~@styles/utility/variable.scss";
+
+.aiwen-notification {
+  position: fixed;
+  top: 60px !important;
+  right: 24px !important;
+  left: auto !important;
+  z-index: 1090;
+}
+
+.aiwen-notification-notice {
+  max-width: 304px;
+  margin-bottom: 16px;
+  padding: 12px 24px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 24px;
+  background: #323232;
+  border-radius: 2px;
+}
+
+.aiwen-notification-fade-enter {
+  animation: fadeInDown 0.6s;
+}
+
+.aiwen-notification-fade-leave {
+  animation: fadeOutUp 0.6s;
+}

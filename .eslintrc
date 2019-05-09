@@ -1,0 +1,23 @@
+{
+  "extends": ["standard", "standard-react"],
+  "parser": "babel-eslint",
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "rules": {
+    "max-len": [2, 120],
+    "jsx-quotes": "off",
+    "semi": "off",
+    "no-unexpected-multiline": "off",
+    "react/prop-types": "off",
+    "curly": [2, "all"],
+    "new-cap": "off",
+    "no-var": "error",
+    "no-unused-vars": "off"
+  },
+  "globals": {
+    "RUN_ENV": true,
+    "CustomEvent": true
+  }
+}
